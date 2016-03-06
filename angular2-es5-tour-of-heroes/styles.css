@@ -1,0 +1,435 @@
+h2, h3 { 
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;   
+  font-weight: lighter;
+}
+body { 
+  margin: 2em; 
+}
+body, input[text], button { 
+  color: #888; 
+  font-family: Cambria, Georgia; 
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa; 
+  cursor: auto;
+}
+
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #607D8B;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.router-link-active {
+  color: #039be5;
+}
+
+/* items class */
+.items {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+}
+.items li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.items li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.items li.selected:hover {
+  background-color: #BBD8DC;
+  color: white;
+}
+.items .text {
+  position: relative;
+  top: -3px;
+}
+.items {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 24em;
+}
+.items li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.items li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.items li.selected {
+  background-color: #CFD8DC;
+  color: white;
+}
+
+.items li.selected:hover {
+  background-color: #BBD8DC;
+}
+.items .text {
+  position: relative;
+  top: -3px;
+}
+.items .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+/* everywhere else */
+* { 
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+/*
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
+
+h1[_ngcontent-lei-1] {
+
+  font-size: 1.2em;
+
+  color: #999;
+
+  margin-bottom: 0;
+
+}
+
+h2[_ngcontent-lei-1] {
+
+  font-size: 2em;
+
+  margin-top: 0;
+
+  padding-top: 0;
+
+}
+
+nav[_ngcontent-lei-1] a[_ngcontent-lei-1] {
+
+  padding: 5px 10px;
+
+  text-decoration: none;
+
+  margin-top: 10px;
+
+  display: inline-block;
+
+  background-color: #eee;
+
+  border-radius: 4px;
+
+}
+
+nav[_ngcontent-lei-1] a[_ngcontent-lei-1]:visited, a[_ngcontent-lei-1]:link {
+
+  color: #607D8B;
+
+}
+
+nav[_ngcontent-lei-1] a[_ngcontent-lei-1]:hover {
+
+  color: #039be5;
+
+  background-color: #CFD8DC;
+
+}
+
+nav[_ngcontent-lei-1] a.router-link-active[_ngcontent-lei-1] {
+
+  color: #039be5;
+
+}
+
+[class*='col-'][_ngcontent-lei-3] {
+
+  float: left;
+
+}
+
+*[_ngcontent-lei-3], *[_ngcontent-lei-3]:after, *[_ngcontent-lei-3]:before {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+}
+
+h3[_ngcontent-lei-3] {
+
+  text-align: center; margin-bottom: 0;
+
+}
+
+[class*='col-'][_ngcontent-lei-3] {
+
+  padding-right: 20px;
+
+  padding-bottom: 20px;
+
+}
+
+[class*='col-'][_ngcontent-lei-3]:last-of-type {
+
+  padding-right: 0;
+
+}
+
+.grid[_ngcontent-lei-3] {
+
+  margin: 0;
+
+}
+
+.col-1-4[_ngcontent-lei-3] {
+
+  width: 25%;
+
+}
+
+.module[_ngcontent-lei-3] {
+
+	padding: 20px;
+
+	text-align: center;
+
+	color: #eee;
+
+	max-height: 120px;
+
+	min-width: 120px;
+
+	background-color: #607D8B;
+
+	border-radius: 2px;
+
+}
+
+h4[_ngcontent-lei-3] {
+
+  position: relative;
+
+}
+
+.module[_ngcontent-lei-3]:hover {
+
+  background-color: #EEE;
+
+  cursor: pointer;
+
+  color: #607d8b;
+
+}
+
+.grid-pad[_ngcontent-lei-3] {
+
+  padding: 10px 0;
+
+}
+
+.grid-pad[_ngcontent-lei-3] > [class*='col-'][_ngcontent-lei-3]:last-of-type {
+
+  padding-right: 20px;
+
+}
+
+@media (max-width: 600px) {
+
+	.module[_ngcontent-lei-3] {
+
+	  font-size: 10px;
+
+	  max-height: 75px; }
+
+}
+
+@media (max-width: 1024px) {
+
+	.grid[_ngcontent-lei-3] {
+
+	  margin: 0;
+
+	}
+
+	.module[_ngcontent-lei-3] {
+
+	  min-width: 60px;
+
+	}
+
+}
+
+.selected[_ngcontent-lei-5] {
+
+  background-color: #CFD8DC !important;
+
+  color: white;
+
+}
+
+.heroes[_ngcontent-lei-5] {
+
+  margin: 0 0 2em 0;
+
+  list-style-type: none;
+
+  padding: 0;
+
+  width: 10em;
+
+}
+
+.heroes[_ngcontent-lei-5] li[_ngcontent-lei-5] {
+
+  cursor: pointer;
+
+  position: relative;
+
+  left: 0;
+
+  background-color: #EEE;
+
+  margin: .5em;
+
+  padding: .3em 0;
+
+  height: 1.6em;
+
+  border-radius: 4px;
+
+}
+
+.heroes[_ngcontent-lei-5] li[_ngcontent-lei-5]:hover {
+
+  color: #607D8B;
+
+  background-color: #DDD;
+
+  left: .1em;
+
+}
+
+.heroes[_ngcontent-lei-5] li.selected[_ngcontent-lei-5]:hover {
+
+  background-color: #BBD8DC !important;
+
+  color: white;
+
+}
+
+.heroes[_ngcontent-lei-5] .text[_ngcontent-lei-5] {
+
+  position: relative;
+
+  top: -3px;
+
+}
+
+.heroes[_ngcontent-lei-5] .badge[_ngcontent-lei-5] {
+
+  display: inline-block;
+
+  font-size: small;
+
+  color: white;
+
+  padding: 0.8em 0.7em 0 0.7em;
+
+  background-color: #607D8B;
+
+  line-height: 1em;
+
+  position: relative;
+
+  left: -1px;
+
+  top: -4px;
+
+  height: 1.8em;
+
+  margin-right: .8em;
+
+  border-radius: 4px 0 0 4px;
+
+}
+
+button[_ngcontent-lei-5] {
+
+  font-family: Arial;
+
+  background-color: #eee;
+
+  border: none;
+
+  padding: 5px 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  cursor: hand;
+
+}
+
+button[_ngcontent-lei-5]:hover {
+  background-color: #cfd8dc;
+}
